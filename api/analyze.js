@@ -21,7 +21,7 @@ export default async function handler(req, res) {
 2. الأدوات المطلوبة ومسارها في قائمة Effects
 3. خطوات التطبيق برقم (1، 2، 3) مع شرح الـ Keyframes والضبط.`;
 
-    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`, {
+    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${apiKey}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
